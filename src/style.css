@@ -1,0 +1,21 @@
+.container {
+  background-color: #efefef;
+  height: 100vh;
+}
+
+.wrap {
+  background-color: #ffffff;
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #efefef;
+  height: 70px;
+  display: flex;
+  width: 18%;
+  background-image: url('./images/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
