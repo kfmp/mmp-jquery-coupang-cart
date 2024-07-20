@@ -1,21 +1,134 @@
+body {
+  background-color: #efefef;
+}
 .container {
   background-color: #efefef;
-  height: 100vh;
-}
-
-.wrap {
-  background-color: #ffffff;
   width: 980px;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
 }
 
 .header {
   background-color: #efefef;
-  height: 70px;
+  height: 60px;
   display: flex;
-  width: 18%;
+  width: 15%;
   background-image: url('./images/logo.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main {
+  border-top: 1px solid black;
+  background-color: #ffffff;
+}
+
+.cart {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0px;
+}
+
+.cart-header-h1 {
+  padding-left: 8px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.cart-header-nav {
+  width: 42%;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cart-header-nav li {
+  color: grey;
+  font-weight: bold;
+}
+
+.nav-active {
+  color: black;
+}
+
+.nav-active span {
+  color: #139ee8;
+}
+
+.cart-main {
+}
+
+.cart-main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-main-nav div {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.cart-main-nav div:nth-child(1) {
+  color: #346aff;
+  font-weight: bold;
+  border: 1px solid #346aff;
+  border-bottom: none;
+}
+
+.cart-main-nav div:nth-child(2) {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #346aff;
+}
+
+.cart-main-nav div:nth-child(2):hover {
+  background-color: #eaedf0;
+}
+
+.cart-main-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cart-main-list {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  width: 65%;
+}
+
+.cart-list-title {
+  height: 50px;
+  padding-left: 15px;
+  line-height: 50px;
+}
+
+.cart-list-title span:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-list-item {
+  border-top: 1px solid #e2e2e2;
+  height: 235px;
+}
+
+.cart-list-add {
+  height: 50px;
+  background-color: #f9fafb;
+}
+
+.printer {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  width: 33%;
+  height: 255px;
 }
